@@ -1,5 +1,5 @@
 public class BookAccess {
-    private static void comparePrices(Book book1, Book book2) {
+    public static void comparePrices(Book book1, Book book2) {
         float book1Price = book1.getPrice();
         float book2Price = book2.getPrice();
         String priceCmp = "";
