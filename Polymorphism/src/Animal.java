@@ -9,9 +9,12 @@ public class Animal {
         return null;
     }
 
-    @Override
+    public String food() {
+        return null;
+    }
+
     public String toString() {
-        return name.concat(" says ").concat(sound());
+        return name.concat(" says ").concat(sound()).concat(" and eats ").concat(food());
     }
 }
 
@@ -23,6 +26,10 @@ class Dog extends Animal {
     public String sound() {
         return "Woof";
     }
+
+    public String food() {
+        return "steak";
+    }
 }
 
 class Cat extends Animal {
@@ -33,6 +40,10 @@ class Cat extends Animal {
     public String sound() {
         return "Meow";
     }
+
+    public String food() {
+        return "mice";
+    }
 }
 
 class Cow extends Animal {
@@ -42,5 +53,9 @@ class Cow extends Animal {
 
     public String sound() {
         return "Moo";
+    }
+
+    public String food() {
+        return "grass";
     }
 }
