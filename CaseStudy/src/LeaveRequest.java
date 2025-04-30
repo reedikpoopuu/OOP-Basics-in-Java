@@ -8,7 +8,6 @@ public class LeaveRequest {
     private String reason;
 
     //Constructor
-
     public LeaveRequest(int requestId, Employee employee, String startDate, String endDate, String reason) {
         this.requestId = requestId;
         this.employee = employee;
@@ -31,3 +30,17 @@ public class LeaveRequest {
 }
 
 //Child class
+public class SickLeaveRequest extends LeaveRequest {
+    private boolean medicalCertificateProvided;
+
+    public SickLeaveRequest(int requestId, Employee employee,
+                            String startDate, String endDate,
+                            boolean medicalCertificateProvided) {
+        super(requestId, employee, startDate, endDate, "Sick Leave");
+        this.medicalCertificateProvided = medicalCertificateProvided;
+    }
+
+    public boolean isMedicalCertificateProvided() {
+        return medicalCertificateProvided;
+    }
+}
