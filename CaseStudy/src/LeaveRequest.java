@@ -29,3 +29,5 @@ public class LeaveRequest {
     }
     //Methods
 }
+
+//Child class
