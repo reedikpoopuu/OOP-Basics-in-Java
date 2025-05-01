@@ -4,16 +4,24 @@ public class Employee {
     private String name;
     private String department;
     private String email;
-
+    private int vacationDays;
     //Constructor
     public Employee(int employeeId, String name, String department, String email) {
         this.employeeId = employeeId;
         this.name = name;
         this.department = department;
         this.email = email;
+        this.vacationDays = 28;
     }
 
     //Methods
+    public int getVacationDays() {
+        return vacationDays;
+    }
+
+    public void setVacationDays(int vacationDays) {
+        this.vacationDays = vacationDays;
+    }
 }
 
 /*

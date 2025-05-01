@@ -27,20 +27,12 @@ public class LeaveRequest {
         return super.clone();
     }
     //Methods
-}
 
-//Child class
-public class SickLeaveRequest extends LeaveRequest {
-    private boolean medicalCertificateProvided;
-
-    public SickLeaveRequest(int requestId, Employee employee,
-                            String startDate, String endDate,
-                            boolean medicalCertificateProvided) {
-        super(requestId, employee, startDate, endDate, "Sick Leave");
-        this.medicalCertificateProvided = medicalCertificateProvided;
+    public int getDuration() {
+        return Integer.parseInt(this.endDate) - Integer.parseInt(this.startDate);
     }
-
-    public boolean isMedicalCertificateProvided() {
-        return medicalCertificateProvided;
+    public boolean processRequest() {
+        System.out.println("Processing generic leave request...");
+        return true;
     }
 }
