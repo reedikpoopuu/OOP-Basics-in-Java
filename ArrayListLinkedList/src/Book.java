@@ -13,8 +13,8 @@ public class Book {
 
     @Override
     public String toString() {
-        return "Title: " + bookTitle + "\nAuthor: " + author + "\nYear: "
-                + publicationYear + "Status: " + isAvailable;
+        return "Title: " + bookTitle + " |Author: " + author + " |Year: "
+                + publicationYear + " |Available: " + (isAvailable? "yes": "no");
     }
 
     public String getBookTitle() {

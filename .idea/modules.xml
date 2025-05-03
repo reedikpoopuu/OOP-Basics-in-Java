@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ArrayListLinkedList/ArrayListLinkedList.iml" filepath="$PROJECT_DIR$/ArrayListLinkedList/ArrayListLinkedList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CaseStudy/CaseStudy.iml" filepath="$PROJECT_DIR$/CaseStudy/CaseStudy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/InterfacesAndAbstractClasses/InterfacesAndAbstractClasses.iml" filepath="$PROJECT_DIR$/InterfacesAndAbstractClasses/InterfacesAndAbstractClasses.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/OOP-Basics-in-Java.iml" filepath="$PROJECT_DIR$/.idea/OOP-Basics-in-Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Polymorphism/Polymorphism.iml" filepath="$PROJECT_DIR$/Polymorphism/Polymorphism.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercises/src.iml" filepath="$PROJECT_DIR$/Exercises/src.iml" />
+    </modules>
+  </component>
+</project>
