@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ArrayListLinkedList/ArrayListLinkedList.iml" filepath="$PROJECT_DIR$/ArrayListLinkedList/ArrayListLinkedList.iml" />
       <module fileurl="file://$PROJECT_DIR$/CaseStudy/CaseStudy.iml" filepath="$PROJECT_DIR$/CaseStudy/CaseStudy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FinalProject/FinalProject.iml" filepath="$PROJECT_DIR$/FinalProject/FinalProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HandlingFiles/HandlingFiles.iml" filepath="$PROJECT_DIR$/HandlingFiles/HandlingFiles.iml" />
       <module fileurl="file://$PROJECT_DIR$/InterfacesAndAbstractClasses/InterfacesAndAbstractClasses.iml" filepath="$PROJECT_DIR$/InterfacesAndAbstractClasses/InterfacesAndAbstractClasses.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/OOP-Basics-in-Java.iml" filepath="$PROJECT_DIR$/.idea/OOP-Basics-in-Java.iml" />
       <module fileurl="file://$PROJECT_DIR$/Polymorphism/Polymorphism.iml" filepath="$PROJECT_DIR$/Polymorphism/Polymorphism.iml" />
